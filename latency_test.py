@@ -111,8 +111,8 @@ def main() -> int:
     print(f"Logic Jitter (ms, stdev of total over {TRIALS} runs): {logic_jitter_ms:.4f}")
     if _find_infer_ms(last_result) is None and static_baseline == 0.0:
         print(
-            "Note: 未解析到 return 中的推理耗时、且未设置 SEED_INFER_BASELINE_MS；"
-            "此时『底层推理时间』按 0 处理，Overhead 即整条调用链总时延。"
+            "Note: No inference timing was parsed from the return value and SEED_INFER_BASELINE_MS is unset; "
+            "underlying inference time is treated as 0, so Overhead equals full call-chain latency."
         )
     return 0
 
