@@ -1,0 +1,8 @@
+{
+  "CORE_HOME": ".",
+  "CORE_PERF_MODE": "Normal",
+  "CORE_DEVICE_AUTO_DETECT": 1,
+  "CORE_LLM_EXE_PATH": "llama-server",
+  "CORE_WHISPER_ENABLED": 1,
+  "CORE_RVC_ENABLED": 0
+}
